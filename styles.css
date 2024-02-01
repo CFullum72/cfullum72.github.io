@@ -1,0 +1,97 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c5c4cc;
+    display: flex;
+    min-height: 100vh;
+    /* Ensure the body takes up at least the full height of the viewport */
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    /* Make the container take up the remaining space */
+}
+
+.left-section {
+    text-align: center;
+    width: 25%;
+    /* Adjust the width as needed */
+    padding: 20px;
+    background: linear-gradient(to bottom right, #160874, #1d0a96);
+    /*background-color: #333;*/
+    color: white;
+    height: 100%;
+    /* Set the left section height to 100% */
+    box-sizing: border-box;
+    /* Include padding and border in the total height */
+}
+
+.name {
+    margin-bottom: 0px;
+}
+
+.social-media img {
+    margin-top: 0px;
+    max-width: 25px;
+}
+
+.headshot {
+    max-width: 200px;
+    /* Adjust the size as needed */
+    border-radius: 50%;
+}
+
+.social-media a {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.vertical-navbar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.vertical-navbar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.vertical-navbar img {
+    transform: scale(.25);
+    border-radius: 0;
+}
+
+.footer {
+    position: top;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.right-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+}

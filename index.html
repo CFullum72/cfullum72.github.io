@@ -1,11 +1,65 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>HI ALICE</h1>
+    <div class="container">
+      <!-- Left Section -->
+      <div class="left-section">
+        <div class="profile">
+          <img src="img/me.jpg" alt="Your Photo" class="headshot" />
+          <h2 class="name">Colin Fullum</h2>
+          <div class="social-media">
+            <ul>
+              <li><a href="mailto:youremail@example.com"><img src="img/icons/mail.png" alt="Email"></a></li>
+              <li><a href="https://github.com/yourusername" target="_blank"><img src="img/icons/Social Media/github.png" alt=""></a></li>
+              <li><a href="https://linkedin.com/in/yourusername" target="_blank"><img src="img/icons/Social Media/linkedin.png" alt=""></a></li>
+            </ul>
+          </div>
+
+          <nav class="vertical-navbar">
+            <a href="#home">
+              <img src="img/icons/Nav/home.png" 
+                  alt="Home" />Home</a>
+            <a href="#about">
+              <img src="path/to/about-icon.png" 
+                  alt="About" />About</a>
+            <a href="#resume">
+              <img src="path/to/resume-icon.png" 
+                  alt="Resume" />Resume</a>
+            <a href="#data-analysis">
+              <img
+                src="path/to/data-analysis-icon.png"
+                alt="Data Analysis Journey"/>Data Analysis Journey</a>
+            <a href="#game-dev">
+              <img
+                src="path/to/game-dev-icon.png"
+                alt="Game Development"/>Game Development</a>
+            <a href="#aquariums">
+              <img
+                src="path/to/aquariums-icon.png"
+                alt="Aquariums"/>Aquariums</a>
+            <a href="#contact"><img src="path/to/contact-icon.png" 
+                  alt="Contact" />Contact</a>
+          </nav>
+
+          <!-- Footer within the Left Section -->
+          <footer class="footer">&copy; 2024 Colin Fullum</footer>
+        </div>
+      </div>
+
+      <!-- Right Section for Content -->
+      <div class="right-section">
+        <!-- Your content goes here -->
+        <h1>Welcome to My Website</h1>
+        <p>This is where you can share your journey, projects, and more.</p>
+      </div>
+    </div>
   </body>
 </html>
